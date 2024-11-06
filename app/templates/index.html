@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="info">
+        TEXTO EXPLICANDO O QUE É CAESAR CIPHER
+    </div>
+    
+    <div class="cipher-container">
+        <a href="/encode">
+            <div class="cipher-container-item">
+                <img class="app-Flask" src="{{ url_for('static', filename='images/logo.jpg') }}">
+            </div>
+        </a>                                                                                    
+
+        <a href="/decode"></a>
+    </div>
+{% endblock %}
